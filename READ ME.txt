@@ -1,0 +1,47 @@
+
+----- Installation and Usage Guide -----
+
+         ----Prerequisites----
+
+	Python:
+Install Python 3.10+ from python.org.
+
+	Ffmpeg:
+Install Ffmpeg from ffmpeg.org.
+
+	Dependencies:
+
+Run the following command to install required libraries:
+
+pip install eyed3 yt-dlp requests beautifulsoup4
+
+	Edit the config.json File:
+
+{
+    "ffmpeg_location": "C:\\path\\to\\ffmpeg\\bin"
+}
+
+       ----Usage----
+
+	Run the Script:
+
+Execute the script using:
+
+python main.py
+
+
+	Enter Song Details:
+
+Enter the song name, artist, album, and genre when prompted.
+
+	Select Album Cover:
+
+Choose from multiple options or skip the cover.
+
+	Select YouTube Result:
+
+Pick the correct video from the search results.
+
+	Download and Tag:
+
+The audio file will be downloaded, tagged with metadata, and saved in the Downloads folder.
